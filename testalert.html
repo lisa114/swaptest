@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <script>
+    function myfun(){
+        var x1=document.getElementById('text1').value;
+        alert("DOM on-event handler");
+    }
+</script> 
+    <form>
+        <label>DOM on-event handler</label>
+        <input type="text" id="text1">
+        <input type="button" value="submit" onclick="myfun()">
+    </form>
+    
+</body>
+</html>
